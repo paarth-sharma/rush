@@ -61,4 +61,4 @@ For now the shell includes a very basic support for pipes.
 - [ ] Top and Bottom arrow command selection based on most recent
 - [ ] Tab/Right arrow complete
 - [ ] Command history
-- [ ] Sugegstions for auto complete
+- [ ] Suggestions for auto complete
