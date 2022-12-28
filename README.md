@@ -13,12 +13,12 @@ terminal emulator to interact with it.
 ## Starting point
 At the very least, the simplest interactive program must be able to take user input
 
-- [ ] Taking user input
+- [x] Taking user input
 
 ## Accepting multiple commands
 The shell doesn't stop taking commands till terminated, so it should be able to take multiple commands from the user. The way to do it, is to input the command to take inputs in an infinite loop and to set constraints(s) to break out of it if and when the user so wishes.
 
-- [ ] Accept multiple commands
+- [x] Accept multiple commands
 
 ## Handling args
 An argument is the input given to a command line to process, with the help of which is can process it better
@@ -35,9 +35,10 @@ Having a set of pre-set commands, programmed to carry out specific tasks is very
     <li>It saves time; you can bind lengthy commands to smaller keywords by setting them as aliases</li>
     <li>often more intuitive to type them, rather than to commit large instructions to memory</li>
 </ol>
+
 eg:
-- 'cd' - common shell builtin that hepls navigate to directories, which is vital fucntionality 
-- 'ls' - command that helps find out what directories contain and so on.
+- `` cd `` is a common shell builtin that hepls navigate to directories, which is vital fucntionality 
+- `` ls `` command that helps find out what directories contain and so on.
 
 - [ ] Adding some built-in commands for the shell, like all other shells
 
@@ -48,9 +49,9 @@ If you’ve worked with shells, you will notice that they don't crash if you inp
 
 ## Pipes
 It would be difficult to be productive in a shell which didn’t include pipes. If you aren’t familiar with this feature, the 
-``bash
+``
 |
 `` character is used to tell the shell to redirect the output of the first command into the input of the second command. 
 For now the shell includes a very basic support for pipes.
 
-- [ ] Piping output of one function into other functions using '|' symbol
+- [ ] Piping output of one function into other functions using `` | `` symbol
