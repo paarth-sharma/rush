@@ -55,3 +55,10 @@ It would be difficult to be productive in a shell which didn’t include pipes. 
 For now the shell includes a very basic support for pipes.
 
 - [x] Piping output of one function into other functions using `` | `` symbol
+
+# To be added
+
+- [ ] Top and Bottom arrow command selection based on most recent
+- [ ] Tab/Right arrow complete
+- [ ] Command history
+- [ ] Sugegstions for auto complete
