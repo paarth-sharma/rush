@@ -27,7 +27,7 @@ eg:
 - passing file/directory names
 In order to precisely execute a command and make sure it does the intended job, passing and handling args is neccessary
 
-- [ ] Handling arguments of a command
+- [x] Handling arguments of a command
 
 ## Shell builtins
 Having a set of pre-set commands, programmed to carry out specific tasks is very usefull for 2 reasons -
@@ -40,12 +40,12 @@ eg:
 - `` cd `` is a common shell builtin that hepls navigate to directories, which is vital fucntionality 
 - `` ls `` command that helps find out what directories contain and so on.
 
-- [ ] Adding some built-in commands for the shell, like all other shells
+- [x] Adding some built-in commands for the shell, like all other shells
 
 ## Error-handling
 If you’ve worked with shells, you will notice that they don't crash if you input a command which does not exist, instead they print a meaningful error message which can be used to identify the problem the caused the crash. In my implementation below, that is handled by printing an error to the user and then allowing them to enter another command.
 
-- [ ] Error handling
+- [x] Error handling
 
 ## Pipes
 It would be difficult to be productive in a shell which didn’t include pipes. If you aren’t familiar with this feature, the 
@@ -54,4 +54,4 @@ It would be difficult to be productive in a shell which didn’t include pipes. 
 `` character is used to tell the shell to redirect the output of the first command into the input of the second command. 
 For now the shell includes a very basic support for pipes.
 
-- [ ] Piping output of one function into other functions using `` | `` symbol
+- [x] Piping output of one function into other functions using `` | `` symbol
